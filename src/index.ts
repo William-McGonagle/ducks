@@ -16,7 +16,10 @@ var hatOptions = [
     require("../ducks/hat/hat2.svg"),
     require("../ducks/hat/hat3.svg"),
     require("../ducks/hat/hat4.svg"),
-    require("../ducks/hat/hat5.svg")
+    require("../ducks/hat/hat5.svg"),
+    require("../ducks/hat/hat6.svg"),
+    require("../ducks/hat/hat7.svg"),
+    require("../ducks/hat/hat8.svg"),
 ];
 
 

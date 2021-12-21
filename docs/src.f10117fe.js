@@ -137,6 +137,12 @@ module.exports = "/ducks/hat3.41ba2869.svg";
 module.exports = "/ducks/hat4.41639bdb.svg";
 },{}],"ducks/hat/hat5.svg":[function(require,module,exports) {
 module.exports = "/ducks/hat5.30f84c40.svg";
+},{}],"ducks/hat/hat6.svg":[function(require,module,exports) {
+module.exports = "/ducks/hat6.bc80172e.svg";
+},{}],"ducks/hat/hat7.svg":[function(require,module,exports) {
+module.exports = "/ducks/hat7.73bbd6cb.svg";
+},{}],"ducks/hat/hat8.svg":[function(require,module,exports) {
+module.exports = "/ducks/hat8.4428ef1d.svg";
 },{}],"ducks/body/body1.svg":[function(require,module,exports) {
 module.exports = "/ducks/body1.37e38147.svg";
 },{}],"ducks/beak/beak1.svg":[function(require,module,exports) {
@@ -147,7 +153,7 @@ module.exports = "/ducks/wing1.1339d29d.svg";
 var svg = document.getElementById("duckSVG");
 var eyeOptions = [require("../ducks/eyes/eyes1.svg"), require("../ducks/eyes/eyes2.svg")];
 var smokeOptions = [require("../ducks/smoke/smoke1.svg"), require("../ducks/smoke/smoke2.svg"), require("../ducks/smoke/smoke3.svg")];
-var hatOptions = [require("../ducks/hat/hat1.svg"), require("../ducks/hat/hat2.svg"), require("../ducks/hat/hat3.svg"), require("../ducks/hat/hat4.svg"), require("../ducks/hat/hat5.svg")];
+var hatOptions = [require("../ducks/hat/hat1.svg"), require("../ducks/hat/hat2.svg"), require("../ducks/hat/hat3.svg"), require("../ducks/hat/hat4.svg"), require("../ducks/hat/hat5.svg"), require("../ducks/hat/hat6.svg"), require("../ducks/hat/hat7.svg"), require("../ducks/hat/hat8.svg")];
 
 function randomFromArray(array) {
   return array[Math.floor(Math.random() * array.length)];
@@ -167,7 +173,7 @@ addLayer(randomFromArray(smokeOptions));
 addLayer(randomFromArray(hatOptions));
 addLayer(require("../ducks/beak/beak1.svg"));
 addLayer(require("../ducks/wing/wing1.svg"));
-},{"../ducks/eyes/eyes1.svg":"ducks/eyes/eyes1.svg","../ducks/eyes/eyes2.svg":"ducks/eyes/eyes2.svg","../ducks/smoke/smoke1.svg":"ducks/smoke/smoke1.svg","../ducks/smoke/smoke2.svg":"ducks/smoke/smoke2.svg","../ducks/smoke/smoke3.svg":"ducks/smoke/smoke3.svg","../ducks/hat/hat1.svg":"ducks/hat/hat1.svg","../ducks/hat/hat2.svg":"ducks/hat/hat2.svg","../ducks/hat/hat3.svg":"ducks/hat/hat3.svg","../ducks/hat/hat4.svg":"ducks/hat/hat4.svg","../ducks/hat/hat5.svg":"ducks/hat/hat5.svg","../ducks/body/body1.svg":"ducks/body/body1.svg","../ducks/beak/beak1.svg":"ducks/beak/beak1.svg","../ducks/wing/wing1.svg":"ducks/wing/wing1.svg"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../ducks/eyes/eyes1.svg":"ducks/eyes/eyes1.svg","../ducks/eyes/eyes2.svg":"ducks/eyes/eyes2.svg","../ducks/smoke/smoke1.svg":"ducks/smoke/smoke1.svg","../ducks/smoke/smoke2.svg":"ducks/smoke/smoke2.svg","../ducks/smoke/smoke3.svg":"ducks/smoke/smoke3.svg","../ducks/hat/hat1.svg":"ducks/hat/hat1.svg","../ducks/hat/hat2.svg":"ducks/hat/hat2.svg","../ducks/hat/hat3.svg":"ducks/hat/hat3.svg","../ducks/hat/hat4.svg":"ducks/hat/hat4.svg","../ducks/hat/hat5.svg":"ducks/hat/hat5.svg","../ducks/hat/hat6.svg":"ducks/hat/hat6.svg","../ducks/hat/hat7.svg":"ducks/hat/hat7.svg","../ducks/hat/hat8.svg":"ducks/hat/hat8.svg","../ducks/body/body1.svg":"ducks/body/body1.svg","../ducks/beak/beak1.svg":"ducks/beak/beak1.svg","../ducks/wing/wing1.svg":"ducks/wing/wing1.svg"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -195,7 +201,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63468" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65071" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
