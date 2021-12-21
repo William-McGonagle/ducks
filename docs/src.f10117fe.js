@@ -152,7 +152,7 @@ module.exports = "/ducks/wing1.1339d29d.svg";
 },{}],"src/index.ts":[function(require,module,exports) {
 var svg = document.getElementById("duckSVG");
 var eyeOptions = [require("../ducks/eyes/eyes1.svg"), require("../ducks/eyes/eyes2.svg")];
-var smokeOptions = [require("../ducks/smoke/smoke1.svg"), require("../ducks/smoke/smoke2.svg"), require("../ducks/smoke/smoke3.svg")];
+var smokeOptions = [require("../ducks/smoke/smoke1.svg"), require("../ducks/smoke/smoke2.svg"), require("../ducks/smoke/smoke3.svg"), ""];
 var hatOptions = [require("../ducks/hat/hat1.svg"), require("../ducks/hat/hat2.svg"), require("../ducks/hat/hat3.svg"), require("../ducks/hat/hat4.svg"), require("../ducks/hat/hat5.svg"), require("../ducks/hat/hat6.svg"), require("../ducks/hat/hat7.svg"), require("../ducks/hat/hat8.svg")];
 
 function randomFromArray(array) {
@@ -201,7 +201,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65071" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49833" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

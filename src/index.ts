@@ -8,7 +8,8 @@ var eyeOptions = [
 var smokeOptions = [ 
     require("../ducks/smoke/smoke1.svg"),
     require("../ducks/smoke/smoke2.svg"),
-    require("../ducks/smoke/smoke3.svg")
+    require("../ducks/smoke/smoke3.svg"),
+    ""
 ];
 
 var hatOptions = [ 
