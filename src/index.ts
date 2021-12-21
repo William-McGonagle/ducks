@@ -3,7 +3,8 @@ var svg = document.getElementById("duckSVG");
 
 var eyeOptions = [
     require("../ducks/eyes/eyes1.svg"),
-    require("../ducks/eyes/eyes2.svg")
+    require("../ducks/eyes/eyes2.svg"),
+    require("../ducks/eyes/eyes3.svg"),
 ];
 
 var smokeOptions = [ 
