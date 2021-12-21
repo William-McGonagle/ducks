@@ -5,6 +5,7 @@ var eyeOptions = [
     require("../ducks/eyes/eyes1.svg"),
     require("../ducks/eyes/eyes2.svg"),
     require("../ducks/eyes/eyes3.svg"),
+    require("../ducks/eyes/eyes4.svg"),
 ];
 
 var smokeOptions = [ 
