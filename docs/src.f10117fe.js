@@ -125,6 +125,8 @@ module.exports = "/ducks/eyes2.9c365986.svg";
 module.exports = "/ducks/eyes3.3fd3b2d5.svg";
 },{}],"ducks/eyes/eyes4.svg":[function(require,module,exports) {
 module.exports = "/ducks/eyes4.4d1e93b5.svg";
+},{}],"ducks/items/item1.svg":[function(require,module,exports) {
+module.exports = "/ducks/item1.69da640b.svg";
 },{}],"ducks/smoke/smoke1.svg":[function(require,module,exports) {
 module.exports = "/ducks/smoke1.a665ed0e.svg";
 },{}],"ducks/smoke/smoke2.svg":[function(require,module,exports) {
@@ -165,6 +167,7 @@ module.exports = "/ducks/wing1.1339d29d.svg";
 var subheader = document.getElementById("subheader");
 var svg = document.getElementById("duckSVG");
 var eyeOptions = [require("../ducks/eyes/eyes1.svg"), require("../ducks/eyes/eyes2.svg"), require("../ducks/eyes/eyes3.svg"), require("../ducks/eyes/eyes4.svg")];
+var itemOptions = [require("../ducks/items/item1.svg"), ""];
 var smokeOptions = [require("../ducks/smoke/smoke1.svg"), require("../ducks/smoke/smoke2.svg"), require("../ducks/smoke/smoke3.svg"), require("../ducks/smoke/smoke4.svg"), require("../ducks/smoke/smoke5.svg"), require("../ducks/smoke/smoke6.svg"), require("../ducks/smoke/smoke7.svg"), ""];
 var hatOptions = ["", require("../ducks/hat/hat1.svg"), require("../ducks/hat/hat2.svg"), require("../ducks/hat/hat3.svg"), require("../ducks/hat/hat4.svg"), require("../ducks/hat/hat5.svg"), require("../ducks/hat/hat6.svg"), require("../ducks/hat/hat7.svg"), require("../ducks/hat/hat8.svg")];
 
@@ -189,9 +192,10 @@ addLayer(require("../ducks/body/body1.svg"));
 addLayer(randomFromArray(eyeOptions));
 addLayer(randomFromArray(smokeOptions));
 addLayer(randomFromArray(hatOptions));
+addLayer(randomFromArray(itemOptions));
 addLayer(require("../ducks/beak/beak1.svg"));
 addLayer(require("../ducks/wing/wing1.svg"));
-},{"../ducks/eyes/eyes1.svg":"ducks/eyes/eyes1.svg","../ducks/eyes/eyes2.svg":"ducks/eyes/eyes2.svg","../ducks/eyes/eyes3.svg":"ducks/eyes/eyes3.svg","../ducks/eyes/eyes4.svg":"ducks/eyes/eyes4.svg","../ducks/smoke/smoke1.svg":"ducks/smoke/smoke1.svg","../ducks/smoke/smoke2.svg":"ducks/smoke/smoke2.svg","../ducks/smoke/smoke3.svg":"ducks/smoke/smoke3.svg","../ducks/smoke/smoke4.svg":"ducks/smoke/smoke4.svg","../ducks/smoke/smoke5.svg":"ducks/smoke/smoke5.svg","../ducks/smoke/smoke6.svg":"ducks/smoke/smoke6.svg","../ducks/smoke/smoke7.svg":"ducks/smoke/smoke7.svg","../ducks/hat/hat1.svg":"ducks/hat/hat1.svg","../ducks/hat/hat2.svg":"ducks/hat/hat2.svg","../ducks/hat/hat3.svg":"ducks/hat/hat3.svg","../ducks/hat/hat4.svg":"ducks/hat/hat4.svg","../ducks/hat/hat5.svg":"ducks/hat/hat5.svg","../ducks/hat/hat6.svg":"ducks/hat/hat6.svg","../ducks/hat/hat7.svg":"ducks/hat/hat7.svg","../ducks/hat/hat8.svg":"ducks/hat/hat8.svg","../ducks/body/body1.svg":"ducks/body/body1.svg","../ducks/beak/beak1.svg":"ducks/beak/beak1.svg","../ducks/wing/wing1.svg":"ducks/wing/wing1.svg"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../ducks/eyes/eyes1.svg":"ducks/eyes/eyes1.svg","../ducks/eyes/eyes2.svg":"ducks/eyes/eyes2.svg","../ducks/eyes/eyes3.svg":"ducks/eyes/eyes3.svg","../ducks/eyes/eyes4.svg":"ducks/eyes/eyes4.svg","../ducks/items/item1.svg":"ducks/items/item1.svg","../ducks/smoke/smoke1.svg":"ducks/smoke/smoke1.svg","../ducks/smoke/smoke2.svg":"ducks/smoke/smoke2.svg","../ducks/smoke/smoke3.svg":"ducks/smoke/smoke3.svg","../ducks/smoke/smoke4.svg":"ducks/smoke/smoke4.svg","../ducks/smoke/smoke5.svg":"ducks/smoke/smoke5.svg","../ducks/smoke/smoke6.svg":"ducks/smoke/smoke6.svg","../ducks/smoke/smoke7.svg":"ducks/smoke/smoke7.svg","../ducks/hat/hat1.svg":"ducks/hat/hat1.svg","../ducks/hat/hat2.svg":"ducks/hat/hat2.svg","../ducks/hat/hat3.svg":"ducks/hat/hat3.svg","../ducks/hat/hat4.svg":"ducks/hat/hat4.svg","../ducks/hat/hat5.svg":"ducks/hat/hat5.svg","../ducks/hat/hat6.svg":"ducks/hat/hat6.svg","../ducks/hat/hat7.svg":"ducks/hat/hat7.svg","../ducks/hat/hat8.svg":"ducks/hat/hat8.svg","../ducks/body/body1.svg":"ducks/body/body1.svg","../ducks/beak/beak1.svg":"ducks/beak/beak1.svg","../ducks/wing/wing1.svg":"ducks/wing/wing1.svg"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

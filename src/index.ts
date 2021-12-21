@@ -8,6 +8,11 @@ var eyeOptions = [
     require("../ducks/eyes/eyes4.svg"),
 ];
 
+var itemOptions = [
+    require("../ducks/items/item1.svg"),
+    ""
+];
+
 var smokeOptions = [ 
     require("../ducks/smoke/smoke1.svg"),
     require("../ducks/smoke/smoke2.svg"),
@@ -63,6 +68,8 @@ addLayer(require("../ducks/body/body1.svg"));
 addLayer(randomFromArray(eyeOptions));
 addLayer(randomFromArray(smokeOptions));
 addLayer(randomFromArray(hatOptions));
+
+addLayer(randomFromArray(itemOptions)); 
 
 addLayer(require("../ducks/beak/beak1.svg"));
 addLayer(require("../ducks/wing/wing1.svg"));
