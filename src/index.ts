@@ -20,6 +20,7 @@ var smokeOptions = [
 ];
 
 var hatOptions = [ 
+    "",
     require("../ducks/hat/hat1.svg"),
     require("../ducks/hat/hat2.svg"),
     require("../ducks/hat/hat3.svg"),
