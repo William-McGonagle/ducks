@@ -1,3 +1,4 @@
+var subheader = document.getElementById("subheader");
 var svg = document.getElementById("duckSVG");
 
 var eyeOptions = [
@@ -23,7 +24,6 @@ var hatOptions = [
     require("../ducks/hat/hat8.svg"),
 ];
 
-
 function randomFromArray(array) {
 
     return array[Math.floor(Math.random() * array.length)];
@@ -42,6 +42,14 @@ function addLayer(url) {
     svg.appendChild(img);
 
 }
+
+function countDucks() {
+
+    return eyeOptions.length * smokeOptions.length * hatOptions.length;
+
+}
+
+subheader.innerHTML = `Over ${countDucks()} Ducks and Counting...`;
 
 addLayer(require("../ducks/body/body1.svg"));
 

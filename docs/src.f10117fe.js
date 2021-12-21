@@ -150,6 +150,7 @@ module.exports = "/ducks/beak1.002f8f75.svg";
 },{}],"ducks/wing/wing1.svg":[function(require,module,exports) {
 module.exports = "/ducks/wing1.1339d29d.svg";
 },{}],"src/index.ts":[function(require,module,exports) {
+var subheader = document.getElementById("subheader");
 var svg = document.getElementById("duckSVG");
 var eyeOptions = [require("../ducks/eyes/eyes1.svg"), require("../ducks/eyes/eyes2.svg")];
 var smokeOptions = [require("../ducks/smoke/smoke1.svg"), require("../ducks/smoke/smoke2.svg"), require("../ducks/smoke/smoke3.svg"), ""];
@@ -167,6 +168,11 @@ function addLayer(url) {
   svg.appendChild(img);
 }
 
+function countDucks() {
+  return eyeOptions.length * smokeOptions.length * hatOptions.length;
+}
+
+subheader.innerHTML = "Over " + countDucks() + " Ducks and Counting...";
 addLayer(require("../ducks/body/body1.svg"));
 addLayer(randomFromArray(eyeOptions));
 addLayer(randomFromArray(smokeOptions));
@@ -201,7 +207,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49833" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50475" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
