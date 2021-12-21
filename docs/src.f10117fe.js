@@ -184,7 +184,7 @@ function addLayer(url) {
 }
 
 function countDucks() {
-  return eyeOptions.length * smokeOptions.length * hatOptions.length;
+  return eyeOptions.length * smokeOptions.length * itemOptions.length * hatOptions.length;
 }
 
 subheader.innerHTML = "Over " + countDucks() + " Ducks and Counting...";
