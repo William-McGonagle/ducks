@@ -118,31 +118,31 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"ducks/eyes/eyes1.svg":[function(require,module,exports) {
-module.exports = "/eyes1.aa503ec1.svg";
+module.exports = "/ducks/eyes1.aa503ec1.svg";
 },{}],"ducks/eyes/eyes2.svg":[function(require,module,exports) {
-module.exports = "/eyes2.9c365986.svg";
+module.exports = "/ducks/eyes2.9c365986.svg";
 },{}],"ducks/smoke/smoke1.svg":[function(require,module,exports) {
-module.exports = "/smoke1.a665ed0e.svg";
+module.exports = "/ducks/smoke1.a665ed0e.svg";
 },{}],"ducks/smoke/smoke2.svg":[function(require,module,exports) {
-module.exports = "/smoke2.5af98685.svg";
+module.exports = "/ducks/smoke2.5af98685.svg";
 },{}],"ducks/smoke/smoke3.svg":[function(require,module,exports) {
-module.exports = "/smoke3.cecb7b24.svg";
+module.exports = "/ducks/smoke3.cecb7b24.svg";
 },{}],"ducks/hat/hat1.svg":[function(require,module,exports) {
-module.exports = "/hat1.1f27417f.svg";
+module.exports = "/ducks/hat1.1f27417f.svg";
 },{}],"ducks/hat/hat2.svg":[function(require,module,exports) {
-module.exports = "/hat2.b7eb81f6.svg";
+module.exports = "/ducks/hat2.b7eb81f6.svg";
 },{}],"ducks/hat/hat3.svg":[function(require,module,exports) {
-module.exports = "/hat3.41ba2869.svg";
+module.exports = "/ducks/hat3.41ba2869.svg";
 },{}],"ducks/hat/hat4.svg":[function(require,module,exports) {
-module.exports = "/hat4.41639bdb.svg";
+module.exports = "/ducks/hat4.41639bdb.svg";
 },{}],"ducks/hat/hat5.svg":[function(require,module,exports) {
-module.exports = "/hat5.30f84c40.svg";
+module.exports = "/ducks/hat5.30f84c40.svg";
 },{}],"ducks/body/body1.svg":[function(require,module,exports) {
-module.exports = "/body1.37e38147.svg";
+module.exports = "/ducks/body1.37e38147.svg";
 },{}],"ducks/beak/beak1.svg":[function(require,module,exports) {
-module.exports = "/beak1.002f8f75.svg";
+module.exports = "/ducks/beak1.002f8f75.svg";
 },{}],"ducks/wing/wing1.svg":[function(require,module,exports) {
-module.exports = "/wing1.1339d29d.svg";
+module.exports = "/ducks/wing1.1339d29d.svg";
 },{}],"src/index.ts":[function(require,module,exports) {
 var svg = document.getElementById("duckSVG");
 var eyeOptions = [require("../ducks/eyes/eyes1.svg"), require("../ducks/eyes/eyes2.svg")];
@@ -195,7 +195,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59357" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63468" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -372,4 +372,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/index.ts"], null)
-//# sourceMappingURL=/src.f10117fe.js.map
+//# sourceMappingURL=/ducks/src.f10117fe.js.map
