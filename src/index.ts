@@ -10,6 +10,8 @@ var smokeOptions = [
     require("../ducks/smoke/smoke1.svg"),
     require("../ducks/smoke/smoke2.svg"),
     require("../ducks/smoke/smoke3.svg"),
+    require("../ducks/smoke/smoke4.svg"),
+    require("../ducks/smoke/smoke5.svg"),
     ""
 ];
 
