@@ -10,6 +10,8 @@ var eyeOptions = [
 
 var itemOptions = [
     require("../ducks/items/item1.svg"),
+    require("../ducks/items/item2.svg"),
+    require("../ducks/items/item3.svg"),
     ""
 ];
 
@@ -58,7 +60,7 @@ function addLayer(url) {
 function countDucks() {
 
     return eyeOptions.length * smokeOptions.length * itemOptions.length * hatOptions.length;
-
+ 
 }
 
 subheader.innerHTML = `Over ${countDucks()} Ducks and Counting...`;
