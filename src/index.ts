@@ -12,7 +12,7 @@ var smokeOptions = [
     require("../ducks/smoke/smoke3.svg"),
     require("../ducks/smoke/smoke4.svg"),
     require("../ducks/smoke/smoke5.svg"),
-    require("../ducks/smoke/smoke6.svg"),
+    // require("../ducks/smoke/smoke6.svg"),
     ""
 ];
 
